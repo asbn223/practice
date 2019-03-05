@@ -26,13 +26,14 @@ class newone
         frame = new JFrame("New");
         frame.setVisible(true);
         
-        frame.setLayout(null);
+        //frame.setLayout(null);
         frame.setBackground(Color.BLUE);
 
         frame.setSize(600,400);
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setTitle("Free Wifi");
+        
     }
     
     void newContainer()
@@ -47,7 +48,7 @@ class newone
         label.setText("Free Wifi Forever");
 
         container.add(label);
-        frame.add(label);
+        //frame.add(label);
 
     }
 
@@ -84,16 +85,16 @@ class newone
 
     }
     
-    // void myJOptionPane() {
-    //     JOptionPane.showMessageDialog(frame, "Hello, This is JOptionPane.");
-    //     JOptionPane.showMessageDialog(frame, " Successfully Updated.", " Alert", JOptionPane.WARNING_MESSAGE);
-    //     String name = JOptionPane.showInputDialog(frame, "Enter Name");
+    void myJOptionPane() {
+         JOptionPane.showMessageDialog(frame, "Hello, This is JOptionPane.");
+         JOptionPane.showMessageDialog(frame, " Successfully Updated.", " Alert", JOptionPane.WARNING_MESSAGE);
+         String name = JOptionPane.showInputDialog(frame, "Enter Name");
 
-    //     // For this need window listener
-    //     // int a = JOptionPane.showConfirmDialog(jFrame, "Are you sure?");
-    //     // if (a == JOptionPane.YES_OPTION) {
-    //     // jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    //     // }
-    // }
+         // For this need window listener
+         // int a = JOptionPane.showConfirmDialog(jFrame, "Are you sure?");
+         // if (a == JOptionPane.YES_OPTION) {
+         // jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+         // }
+     }
 
 }
